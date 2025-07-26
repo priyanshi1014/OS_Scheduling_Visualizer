@@ -1,0 +1,117 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #07060700;
+    margin: 0;
+    padding: 0;
+}
+
+.mainhead{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+.mainhead:hover{
+    color: #69ccea;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+}
+
+#chart{
+    margin: auto;
+    margin-top: -15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+}
+
+th {
+    background-color: #75bede;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.tbody{
+    background-color: #CCCCCC;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input:focus{
+    border: 4px solid #75bede;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #a87bba;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover{
+    background-color: #FFFFFF;
+    transition: 0.3s;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #1DB954;
+    transform: scale(1.2);
+}
+
+button:focus{
+    border: 4px solid #1DB954;
+}
+
+.label{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin: 10px;
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: #9aac71;
+}
+
+.outputs{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #282634;
+}

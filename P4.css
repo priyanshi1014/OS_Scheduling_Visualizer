@@ -1,0 +1,130 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #c5cdd6;
+}
+
+.head{
+    color:  black;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.head:hover {
+    color: #000000;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.form{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.form_label{
+    display: block;
+    font-size: 32px;
+    margin: 10px;
+}
+
+.but{
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #8dcccd;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: white;
+    transition: 0.3s;
+    outline-color: transparent;
+    outline-style: solid;
+    box-shadow: 0 0 0 4px #000000;
+    transform: scale(1.2);
+}
+
+input[type=text]{   
+    padding: 5px;
+    margin: 10px;
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(196, 222, 236);
+}
+
+input[type="number"] {
+    padding: 5px;
+    margin: 10px;
+    width: 60%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    background-color: rgb(196, 222, 236);
+}
+
+input:focus{
+    border: 4px solid #000000;
+}
+
+.output0{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.output1{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+
+.miss{
+    color: green;
+}
+
+.hit{
+    color: red;
+}
+
+
+.output2{
+    font-size: 44px;
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-decoration: wavy;
+}
+
+.output3{
+    font-size: 44px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0FA10F;
+    text-decoration: wavy;
+}
+
+.ratio{
+    text-align: center;
+    font-size: 24px;
+    color: #0FA10F;
+}
+
+table{
+    margin: 20px auto;
+    font-size: 24px;
+    color: #0FA10F;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shortest Job First Scheduling Algorithm Simulator</title>
+	<link rel="stylesheet" href="P1.css">
+</head>
+<body>
+	
+	<h1 class="mainhead">Shortest Job First Scheduling Algorithm Simulator</h1>
+	<br>
+	<table>
+		<thead> 
+			<tr>
+				<th>Process ID</th>
+				<th>Arrival Time</th>
+				<th>Burst Time</th>
+				<th>Completion Time</th>
+				<th>Turnaround Time</th> 
+				<th>Waiting Time</th>
+				<th>Delete</th>
+			</tr>
+		</thead>
+		<tbody id="table-body" class="tbody"></tbody>
+	</table>
+	<div>
+
+		<form>
+
+			<!-- <label> Process ID: </label>
+			<input type="number" id="process-id-input"> -->
+
+			<label class="label"> Arrival Time: </label>
+			<input type="number" id="arrival-time-input" min="0">
+
+			<label class="label"> Burst Time: </label>
+			<input type="number" id="burst-time-input" min="1">
+
+		</form>
+
+		<button onclick="addProcess()"> Add Process </button>
+		<button onclick="runSJF()"> Run Simulator </button>
+		<button onclick="reset()"> Force Reset </button>
+		
+		<div class="outputs">
+			<p id="output1"></p>
+			<p id="output2"></p>
+			<p id="output3"></p>
+		</div>
+
+	</div>
+
+	<div class="container">
+		<div id="chart" class="chart">
+			<table id="am">
+				<tr class="r" id="row1"></tr>
+				<tr class="r" id="row2"></tr>
+			</table>
+		</div>
+	</div>
+
+	<script src="P1.js"></script>
+</body>
+</html>
